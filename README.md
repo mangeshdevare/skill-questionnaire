@@ -11,6 +11,11 @@ ruby questionnaire.rb
 
 The goal is to implement a survey where a user should be able to answer a series of Yes/No questions. After each run, a rating is calculated to let them know how they did. Another rating is also calculated to provide an overall score for all runs.
 
+# Approach
+
+All user answers will be recorder with a unique key and saved in Pstore.
+This records can be fetched to get average
+
 ## Requirements
 
 Possible question answers are: "Yes", "No", "Y", or "N" case insensitively to answer each question prompt.
